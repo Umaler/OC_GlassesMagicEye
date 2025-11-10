@@ -114,4 +114,4 @@ s, e = xpcall(main, function(err) return err .. "\n" .. debug.traceback(); end)
 if not s then
     io.stderr:write(e)
 end
-g.removeAll() -- удаляем все, что понарисовали.
+            g.removeAll() -- удаляем все, что понарисовали.
